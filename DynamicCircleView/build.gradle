@@ -48,6 +48,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
+                println("Components: " + components*.name)
                 from components.release
                 groupId = 'com.github.faultaddr' //your git id
                 artifactId = 'DynamicCircleView' //your-repository
