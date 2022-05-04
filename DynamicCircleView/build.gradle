@@ -7,6 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
+        applicationId "com.faultaddr.DynamicCircleView"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -50,7 +51,7 @@ project.afterEvaluate {
                 from components.release
                 groupId = 'com.github.faultaddr' //your git id
                 artifactId = 'DynamicCircleView' //your-repository
-                version = '0.0.3' // As same as the Tag
+                version = '0.0.5' // As same as the Tag
             }
         }
     }
