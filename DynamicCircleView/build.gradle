@@ -50,7 +50,7 @@ project.afterEvaluate {
                 from components.release
                 groupId = 'com.github.faultaddr' //your git id
                 artifactId = 'DynamicCircleView' //your-repository
-                version = '0.0.1' // As same as the Tag
+                version = '0.0.3' // As same as the Tag
             }
         }
     }
